@@ -1,0 +1,7 @@
+<a href="#/question/{{username}}/{{quesId}}/new_answer">Answer this question</a>
+<a href="#/">Logout</a>
+<div ng-repeat="q in quesA">
+  <h1>{{q.question}}<h1>
+    <h5>{{q.descr}}</h5>
+  <p ng-repeat="ans in q.ans">Answers:{{ans}}</p>
+</div>
